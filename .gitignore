@@ -1,0 +1,50 @@
+# Archivos temporales MATLAB
+*.asv          # AutoSave de MATLAB
+*.mex*         # Archivos compilados
+*.mat.bak
+*.m~           # Backups de MATLAB
+*.autosave
+
+# Directorios de MATLAB
+slprj/
+sccprj/
+coder/
+codegen/
+work/          # Workspace de proyectos
+matlab-codegen/
+
+# Archivos temporales Simulink
+*.slxc         # Cache de Simulink
+*.slx.r20*     # Backups automáticos
+*.mdl.r20*     # Backups automáticos
+
+# Otros
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+*.bak
+*.swp
+*.swo
+
+# Archivos de proyecto
+.vscode/
+.idea/
+*.code-workspace
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generados o exportados
+export/
+dist/
+build/
+
+# Sistema operativo
+ehthumbs.db
+desktop.ini

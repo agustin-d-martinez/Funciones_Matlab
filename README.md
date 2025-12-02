@@ -13,29 +13,43 @@ Todas las funciones fueron realizadas pensando en problemas típicos de parciale
 ---
 
 ## Estructura del repositorio
-repo/  
-│  
-├── funciones/  
-│   Contiene todas las funciones .m:  
-│   - Funciones de ángulos (anguloCero, anguloPolo)  
-│   - rlocusGain  
-│   - Funciones de damping/overshoot  
-│   - Funciones integrales de control (control, stateFeedback, stateEstimator, prefiltros)  
-│   - Representación de estados (tf2ssControlable)  
-│   - Utilidades varias  
-│  
-├── simulink/  
-│   Modelos de los distintos casos de estimadores:  
-│   - simulink_caso1 / simulink_caso1_adc / simulink_caso1_digital  
-│   - simulink_caso2 / simulink_caso2_adc / simulink_caso2_digital  
-│   - simulink_caso3 / simulink_caso3_adc / simulink_caso3_digital  
-│   - simulink_caso4 / simulink_caso4_adc / simulink_caso4_digital  
-│  
-├── ejemplos/  
-│   Scripts de ejemplo, incluyendo resoluciones de parciales y demostraciones de uso.  
-│  
-└── README.md  
-
+```
+Ejemplos/
+    ├── final2023_02_23.m
+    ├── final2024.m
+    ├── parcial2022.m
+    ├── parcial2023.m
+    ├── parcial2024.m
+    ├── parcial2025.m
+    ├── Prueba.m
+	└── ...
+func/
+    ├── anguloCero.m
+    ├── caso1.m
+    ├── caso2.m
+    ├── control.m
+    └── ...
+simulink/
+    ├── Simulink_Planta_Digital/
+        ├── simulink_caso1_digital.slx
+        ├── simulink_caso2_digital.slx
+        ├── simulink_caso3_digital.slx
+        ├── simulink_caso4_digital.slx
+        └── simulink_real_estados.slx
+    ├── simulink_caso1_adc.slx
+    ├── simulink_caso1.slx
+    ├── simulink_caso2_adc.slx
+    ├── simulink_caso2.slx
+    ├── simulink_caso3_adc.slx
+    ├── simulink_caso3.slx
+    ├── simulink_caso4_adc.slx
+    ├── simulink_caso4.slx
+    ├── simulink_planta.slx
+    ├── simulink_real_Estados_digital.slx
+    └── simulink_real_Estados.slx
+.gitattributes
+README.md
+```
 ---
 
 # Lista de funciones

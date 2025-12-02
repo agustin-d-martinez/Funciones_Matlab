@@ -1,2 +1,33 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Normalización de fin de línea
+* text=auto eol=lf
+
+# Tratar código MATLAB como texto
+*.m text
+*.mlx text
+*.md text
+*.txt text
+
+# Modelos de Simulink (binarios)
+*.slx binary
+*.mdl text
+
+# Archivos de datos
+*.mat binary
+
+# Archivos de imagen
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+
+# Documentos
+*.pdf binary
+*.docx binary
+*.xlsx binary
+
+# Comprimir diffs para ciertos archivos grandes
+*.mat diff=none
+*.slx diff=none
+
+# Mantener permisos de ejecución donde corresponda
+*.sh eol=lf
